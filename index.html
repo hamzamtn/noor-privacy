@@ -88,7 +88,7 @@
   <header>
     <h1>Privacy Policy: Noor Companion</h1>
     <p class="meta">App: Noor Companion (Android package <code>com.noorcompanion.islamic_daily</code>)</p>
-    <p class="meta">Effective date: 23 November 2026 (replaces the version of 21 November 2026)</p>
+    <p class="meta">Effective date: 24 November 2026 (replaces the version of 23 November 2026)</p>
     <p class="meta">Contact: <a href="mailto:srwebgeek@gmail.com">srwebgeek@gmail.com</a></p>
   </header>
 
@@ -99,8 +99,9 @@
       <li>The app has <strong>no ads, no analytics, no crash-reporting and no tracking SDKs</strong>.</li>
       <li>Your <strong>location is used only on your phone</strong> to calculate prayer times and the Qibla direction. It is never sent to us or to anyone else.</li>
       <li>Everything you create (settings, Salah and fasting journal, Qaza backlog, Tasbeeh counts, bookmarks, Khatm plan, home tiles) <strong>stays on your device</strong>.</li>
-      <li>The app connects to the internet <strong>only when you tap to do so</strong>: to download Quran recitation or translation audio from everyayah.com, or to check for or download a tafsir update from quranenc.com when you tap <strong>Check for update</strong> or <strong>Download</strong> for a tafsir edition. It never connects on its own, and it sends none of your personal data.</li>
+      <li>The app connects to the internet <strong>only when you tap to do so</strong>: to download or stream (play online) Quran recitation or translation audio from everyayah.com, or to check for or download a tafsir update from quranenc.com when you tap <strong>Check for update</strong> or <strong>Download</strong> for a tafsir edition. It never connects on its own, and it sends none of your personal data.</li>
       <li><strong>Report a correction</strong> only opens your own email app with a pre-filled message. The app itself sends nothing.</li>
+      <li><strong>Nearby masjid</strong> only opens your own maps app (for example Google Maps) to search for mosques near you. The app itself sends nothing; the maps app handles the search under its own privacy policy.</li>
     </ul>
   </section>
 
@@ -134,8 +135,9 @@
         <tr><td>Alarms &amp; reminders (exact alarms)</td><td>Delivers prayer alerts at the exact prayer time, instead of minutes late.</td></tr>
         <tr><td>Run at startup</td><td>Re-schedules your prayer alerts after the phone restarts or the app is updated.</td></tr>
         <tr><td>Vibration</td><td>Haptic feedback for the Tasbeeh counter and the Qibla compass, and vibration for alerts.</td></tr>
-        <tr><td>Internet and network state</td><td>Used <strong>only</strong> when you choose to download recitation or translation audio (everyayah.com), or tap <strong>Check for update</strong> or <strong>Download</strong> for a tafsir edition (quranenc.com). Never used in the background or on a schedule.</td></tr>
+        <tr><td>Internet and network state</td><td>Used <strong>only</strong> when you choose to download or stream (play online) recitation or translation audio (everyayah.com), or tap <strong>Check for update</strong> or <strong>Download</strong> for a tafsir edition (quranenc.com). Never used in the background or on a schedule.</td></tr>
         <tr><td>Prevent phone from sleeping (wake lock)</td><td>Declared by the notification and audio components so an alert or audio playback is not cut off. It is not used to collect anything.</td></tr>
+        <tr><td>Foreground service (media playback)</td><td>Used <strong>only</strong> while Quran recitation or translation audio is playing, so it can continue with the screen off and you can pause, skip to the previous or next ayah, or stop it from the notification or lock screen. It ends when playback stops. No data is involved.</td></tr>
       </tbody>
     </table>
   </div>
@@ -144,7 +146,7 @@
   <h2>4. Optional internet connections (everyayah.com and quranenc.com)</h2>
   <p>The app uses the internet in only two situations, and <strong>only after you tap a button</strong>. It makes no network request when it starts, in the background or on a schedule.</p>
   <h3>4.1 Recitation and translation audio (everyayah.com)</h3>
-  <p>Quran recitation and human-voiced translation audio are <strong>not bundled</strong> with the app because of their size. When you tap to download a surah, the app downloads the audio files over a secure (HTTPS) connection from <strong>everyayah.com</strong>, a third-party public audio library. The files are then stored on your device and played offline.</p>
+  <p>Quran recitation and human-voiced translation audio are <strong>not bundled</strong> with the app because of their size. When you tap to download a surah, the app downloads the audio files over a secure (HTTPS) connection from <strong>everyayah.com</strong>, a third-party public audio library. The files are then stored on your device and played offline. If you tap <strong>Play online</strong> instead, the app streams the same files from the same server over HTTPS while you listen: nothing is saved on your device, and before it starts the app makes one small request for the first file to check the connection. If you choose <strong>Always play online</strong> in Settings › Audio, tapping <strong>Listen</strong> on a surah that isn't downloaded streams it in the same way.</p>
   <h3>4.2 Tafsir updates (quranenc.com)</h3>
   <p>Two Arabic tafsir editions (Al-Mukhtasar in Interpreting the Noble Quran, and At-Tafsir Al-Muyassar) are <strong>included in the app</strong> and work offline. Their text comes from <strong>QuranEnc.com</strong> (Encyclopedia of the Noble Quran) and is shown unchanged.</p>
   <ul>
@@ -154,14 +156,15 @@
   </ul>
   <h3>4.3 What these websites receive</h3>
   <ul>
-    <li>Like any web server, everyayah.com and quranenc.com receive the <strong>standard information that comes with every internet request</strong>: your device's <strong>IP address</strong>, the file being requested (which reciter and surah, or which tafsir edition and surah) and basic technical request headers. That information is handled under each website's own practices, which we do not control.</li>
+    <li>Like any web server, everyayah.com (whether you download or stream (play online) the audio) and quranenc.com receive the <strong>standard information that comes with every internet request</strong>: your device's <strong>IP address</strong>, the file being requested (which reciter and surah, or which tafsir edition and surah) and basic technical request headers. That information is handled under each website's own practices, which we do not control.</li>
     <li>The app does <strong>not</strong> send your name, location, any account details, device identifiers or any of your journal or settings data with these requests.</li>
-    <li>If you never download audio and never tap Check for update or Download for a tafsir, the app never connects to the internet.</li>
+    <li>If you never download or stream (play online) audio and never tap Check for update or Download for a tafsir, the app never connects to the internet.</li>
   </ul>
 
   <h2>5. Features that use your phone's own services</h2>
   <ul>
     <li><strong>Read-aloud:</strong> translations are read using your phone's built-in text-to-speech engine (for example, Google Speech Services). The app passes the text to that engine on your device. How that engine works, including whether it uses voices online, is set by its provider and your phone's settings.</li>
+    <li><strong>Nearby masjid:</strong> tapping Nearby masjid opens <strong>your own maps app</strong> (Google Maps, Apple Maps or another maps app) with a search for mosques. On Android the app passes your saved prayer-times location to the maps app on your phone so the search starts in the right area; if no maps app is installed, Google Maps opens in your browser without any location from the app. <strong>The app itself sends nothing to any server.</strong> The search, the map and any directions are handled by the maps app under its own privacy policy.</li>
     <li><strong>Report a correction:</strong> tapping Report a correction (in Settings, the Disclaimer, the User guide, and next to Quran, hadith, dua, dhikr and tafsir texts) opens <strong>your own email app</strong> through a standard <code>mailto:</code> link. The message is addressed to <a href="mailto:srwebgeek@gmail.com">srwebgeek@gmail.com</a> and pre-filled with the app version, the app language and the item reference (for example a surah and ayah, or a hadith number), with blank lines for you to describe the mistake. <strong>The app itself sends nothing.</strong> The email is sent only if you press Send in your email app; it then goes through your email provider to the developer, who uses it only to check and fix the reported text. Corrections about tafsir text are forwarded to QuranEnc.com, as stated in the Tafsir sheet. If no email app is found, the app shows the address for you to copy and lets you share the report text through your phone's share sheet.</li>
     <li><strong>Sharing, PDF export and backups:</strong> when you share a verse image or timetable, export a PDF, or export a backup, the app opens your phone's share sheet, print dialog or file picker. <strong>You choose</strong> where the file goes (for example a messaging app or cloud drive). Once you send it, that service's own privacy policy applies.</li>
     <li><strong>Backup file:</strong> the backup is a plain (unencrypted) file with your settings and journal. It is created only when you ask for it, and only you decide where it goes. Keep it somewhere private. Restoring reads a file you pick; nothing is downloaded.</li>
@@ -192,7 +195,7 @@
   <p>Because we never receive your data, there is nothing for us to delete on a server. You do not need to send us a deletion request.</p>
 
   <h2>9. Security</h2>
-  <p>Your data is kept in the app's private storage, which Android protects from other apps. Audio and tafsir downloads use HTTPS. Please protect your phone with a screen lock and keep any exported backup file private.</p>
+  <p>Your data is kept in the app's private storage, which Android protects from other apps. Audio downloads and streaming (play online), and tafsir downloads, use HTTPS. Please protect your phone with a screen lock and keep any exported backup file private.</p>
 
   <h2>10. Changes to this policy</h2>
   <p>If the app's handling of information changes (for example, a new feature that needs the internet), we will update this policy and change the effective date above before that version is released. Material changes will also be noted in the app's release notes.</p>
@@ -202,16 +205,16 @@
 
   <section class="rtl ur" lang="ur" dir="rtl">
     <h2>اردو خلاصہ</h2>
-    <p>نور کمپینین آپ کا کوئی ذاتی ڈیٹا جمع نہیں کرتی، کسی سرور پر محفوظ نہیں کرتی، نہ بیچتی ہے اور نہ کسی کو دیتی ہے۔ ایپ میں کوئی اشتہار، اکاؤنٹ، اینالیٹکس یا ٹریکر نہیں۔ آپ کا مقام صرف آپ کے فون پر اوقاتِ نماز اور قبلہ کے حساب کے لیے استعمال ہوتا ہے اور کہیں نہیں بھیجا جاتا۔ آپ کی ترتیبات، نماز و روزے کا روزنامچہ، قضا، تسبیح کا شمار، بُک مارکس اور ختمِ قرآن کا منصوبہ صرف آپ کے فون پر رہتے ہیں۔ انٹرنیٹ صرف اُس وقت استعمال ہوتا ہے جب آپ خود <span dir="ltr">everyayah.com</span> سے تلاوت یا ترجمے کی آڈیو ڈاؤن لوڈ کریں، یا تفسیر کے لیے «اپ ڈیٹ چیک کریں» یا «ڈاؤن لوڈ کریں» دبا کر <span dir="ltr">quranenc.com</span> سے تفسیر کا نیا ورژن چیک یا ڈاؤن لوڈ کریں؛ ایپ خود سے کبھی انٹرنیٹ سے رابطہ نہیں کرتی۔ اس وقت یہ ویب سائٹس عام انٹرنیٹ درخواست کی طرح آپ کا IP ایڈریس وصول کرتی ہیں، لیکن آپ کا کوئی ذاتی ڈیٹا نہیں بھیجا جاتا۔ «غلطی کی نشاندہی کریں» صرف آپ کی اپنی ای میل ایپ کھولتا ہے؛ ایپ خود کچھ نہیں بھیجتی۔ اپنا سارا ڈیٹا حذف کرنے کے لیے ایپ اَن انسٹال کریں یا فون کی ترتیبات میں ایپ کا ڈیٹا صاف کریں۔ ڈاؤن لوڈ شدہ تلاوتیں اور تفسیر ایپ کی ترتیبات سے حذف کی جا سکتی ہیں۔ رابطہ: <span dir="ltr"><a href="mailto:srwebgeek@gmail.com">srwebgeek@gmail.com</a></span></p>
+    <p>نور کمپینین آپ کا کوئی ذاتی ڈیٹا جمع نہیں کرتی، کسی سرور پر محفوظ نہیں کرتی، نہ بیچتی ہے اور نہ کسی کو دیتی ہے۔ ایپ میں کوئی اشتہار، اکاؤنٹ، اینالیٹکس یا ٹریکر نہیں۔ آپ کا مقام صرف آپ کے فون پر اوقاتِ نماز اور قبلہ کے حساب کے لیے استعمال ہوتا ہے اور کہیں نہیں بھیجا جاتا۔ آپ کی ترتیبات، نماز و روزے کا روزنامچہ، قضا، تسبیح کا شمار، بُک مارکس اور ختمِ قرآن کا منصوبہ صرف آپ کے فون پر رہتے ہیں۔ انٹرنیٹ صرف اُس وقت استعمال ہوتا ہے جب آپ خود <span dir="ltr">everyayah.com</span> سے تلاوت یا ترجمے کی آڈیو ڈاؤن لوڈ کریں یا آن لائن سنیں (اسٹریم کریں)، یا تفسیر کے لیے «اپ ڈیٹ چیک کریں» یا «ڈاؤن لوڈ کریں» دبا کر <span dir="ltr">quranenc.com</span> سے تفسیر کا نیا ورژن چیک یا ڈاؤن لوڈ کریں؛ ایپ خود سے کبھی انٹرنیٹ سے رابطہ نہیں کرتی۔ اس وقت یہ ویب سائٹس عام انٹرنیٹ درخواست کی طرح آپ کا IP ایڈریس وصول کرتی ہیں، لیکن آپ کا کوئی ذاتی ڈیٹا نہیں بھیجا جاتا۔ «غلطی کی نشاندہی کریں» صرف آپ کی اپنی ای میل ایپ کھولتا ہے، اور «قریبی مسجد» صرف آپ کی اپنی میپس ایپ کھولتا ہے؛ ایپ خود کچھ نہیں بھیجتی۔ جب قرآن کی تلاوت یا ترجمے کی آڈیو چل رہی ہو، صرف اُسی وقت ایپ «فورگراؤنڈ سروس (میڈیا پلے بیک)» استعمال کرتی ہے تاکہ اسکرین بند ہونے پر بھی آڈیو چلتی رہے اور آپ اسے نوٹیفکیشن سے روک، اگلی یا پچھلی آیت پر جا یا بند کر سکیں؛ اس میں کوئی ڈیٹا شامل نہیں۔ اپنا سارا ڈیٹا حذف کرنے کے لیے ایپ اَن انسٹال کریں یا فون کی ترتیبات میں ایپ کا ڈیٹا صاف کریں۔ ڈاؤن لوڈ شدہ تلاوتیں اور تفسیر ایپ کی ترتیبات سے حذف کی جا سکتی ہیں۔ رابطہ: <span dir="ltr"><a href="mailto:srwebgeek@gmail.com">srwebgeek@gmail.com</a></span></p>
   </section>
 
   <section class="rtl ar" lang="ar" dir="rtl">
     <h2>ملخص بالعربية</h2>
-    <p>لا يجمع تطبيق رفيق النور (<span dir="ltr">Noor Companion</span>) أي بيانات شخصية، ولا يحفظها على أي خادم، ولا يبيعها ولا يشاركها مع أحد. لا يحتوي التطبيق على إعلانات أو حسابات أو أدوات تحليل أو تتبّع. يُستخدم موقعك على هاتفك فقط لحساب مواقيت الصلاة واتجاه القبلة، ولا يُرسَل إلى أي جهة. تبقى إعداداتك وسجلّ الصلاة والصيام والقضاء وعدّادات التسبيح والعلامات المرجعية وخطة الختم على جهازك وحده. لا يتصل التطبيق بالإنترنت إلا عندما تختار تنزيل صوت التلاوة أو الترجمة من موقع <span dir="ltr">everyayah.com</span>، أو تضغط «التحقق من وجود تحديث» أو «تنزيل» للتحقق من إصدار أحدث للتفسير أو تنزيله من موقع <span dir="ltr">quranenc.com</span>، ولا يتصل من تلقاء نفسه أبدًا. وعندها يتلقّى الموقع عنوان IP الخاص بك كما في أي طلب عادي على الإنترنت، دون إرسال أي بيانات شخصية. أما «الإبلاغ عن تصحيح» فيفتح تطبيق البريد الخاص بك فقط، ولا يرسل التطبيق نفسه شيئًا. لحذف بياناتك كلها، أزِل تثبيت التطبيق أو امسح بياناته من إعدادات الهاتف، ويمكنك حذف التلاوات والتفاسير المنزَّلة من إعدادات التطبيق. للتواصل: <span dir="ltr"><a href="mailto:srwebgeek@gmail.com">srwebgeek@gmail.com</a></span></p>
+    <p>لا يجمع تطبيق رفيق النور (<span dir="ltr">Noor Companion</span>) أي بيانات شخصية، ولا يحفظها على أي خادم، ولا يبيعها ولا يشاركها مع أحد. لا يحتوي التطبيق على إعلانات أو حسابات أو أدوات تحليل أو تتبّع. يُستخدم موقعك على هاتفك فقط لحساب مواقيت الصلاة واتجاه القبلة، ولا يُرسَل إلى أي جهة. تبقى إعداداتك وسجلّ الصلاة والصيام والقضاء وعدّادات التسبيح والعلامات المرجعية وخطة الختم على جهازك وحده. لا يتصل التطبيق بالإنترنت إلا عندما تختار تنزيل صوت التلاوة أو الترجمة أو بثّه (التشغيل عبر الإنترنت) من موقع <span dir="ltr">everyayah.com</span>، أو تضغط «التحقق من وجود تحديث» أو «تنزيل» للتحقق من إصدار أحدث للتفسير أو تنزيله من موقع <span dir="ltr">quranenc.com</span>، ولا يتصل من تلقاء نفسه أبدًا. وعندها يتلقّى الموقع عنوان IP الخاص بك كما في أي طلب عادي على الإنترنت، دون إرسال أي بيانات شخصية. أما «الإبلاغ عن تصحيح» فيفتح تطبيق البريد الخاص بك فقط، و«مساجد قريبة» يفتح تطبيق الخرائط لديك فقط، ولا يرسل التطبيق نفسه شيئًا. ويستخدم التطبيق «خدمة الواجهة الأمامية (تشغيل الوسائط)» فقط أثناء تشغيل تلاوة القرآن أو صوت الترجمة، ليستمر الصوت والشاشة مطفأة ولتتمكن من إيقافه مؤقتًا أو الانتقال إلى الآية التالية أو السابقة أو إيقافه من الإشعار؛ ولا تتضمن أي بيانات. لحذف بياناتك كلها، أزِل تثبيت التطبيق أو امسح بياناته من إعدادات الهاتف، ويمكنك حذف التلاوات والتفاسير المنزَّلة من إعدادات التطبيق. للتواصل: <span dir="ltr"><a href="mailto:srwebgeek@gmail.com">srwebgeek@gmail.com</a></span></p>
   </section>
 
   <footer>
-    <p>Noor Companion · Effective 23 November 2026</p>
+    <p>Noor Companion · Effective 24 November 2026</p>
   </footer>
 </main>
 </body>
